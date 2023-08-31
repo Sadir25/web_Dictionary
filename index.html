@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dictionary</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(72, 16, 124);
+            padding: 0 0 2rem 0;
+        }
+        body{
+            background-color: rgb(143, 243, 243);
+        }
+        input{
+            margin-left: 11rem;
+            margin-right: auto;
+            height: 5vh;
+            width: auto;
+        }
+        button{
+            background-color: rgb(236, 160, 17);
+            height: 5vh;
+        }
+        hr{
+            margin: 1rem 0;
+        }
+        .output{
+            
+            align-items: center;
+            margin: 5rem;
+            size: relative;
+            display: block;
+            height: 10vh;
+            width: 70%;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Dictionary</h1>
+    <input id="txtInput" type="text"placeholder="Enter the word">
+    <button id="btn-meaning" >Get the meaning</button>
+    <hr>
+    <div class="output"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

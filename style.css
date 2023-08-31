@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.wrapper{
+    width: 420px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    padding: 28px 28px 45px;
+}
+
+.wrapper header{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wrapper .search{
+    margin: 35px 0 18px;
+}
+.search input{
+    height: 53px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 7px;
+    font-size:18px;
+}
+.search input:focus{
+    border: 2px solid indigo ;
+}
+
+.wrapper ul{
+    display: none;
+}
+
+.wrapper .active ul{
+    display: block;
+}
+.wrapper ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    padding-bottom: 17px;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+ul .word p{
+    font-size: 22px;
+    font-weight: 500;
+}
+ 
+ul .word span{
+    font-size: 15px;
+    font-weight: 120;
+}
+
+.content li .details{
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+    border-left: 3px solid blue;
+}
+
+.content li ,details p{
+    font-size: 17px;
+    font-weight: 500;
+}
+ .content li ,details span{
+    font-size: 15px;
+    color:black;
+ }
+
+ .synonyms .details .list{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .synonyms .details .list span{
+    cursor: pointer;
+    margin-right: 5px;
+    text-decoration: underline;
+ }
